@@ -15,6 +15,8 @@ The Proxy Manager is a utility for managing and rotating proxy configurations. I
 
 2. Use it for fetching
     ```python
+    import ProxyManager
+
     file_path = 'credentials_and_proxies.toml'
 
     proxy_manager = ProxyManager(file_path)
