@@ -43,3 +43,16 @@ The `make_executable.py` script is a utility to make a Python script executable 
    ```bash
    python make_executable.py your_script.py
    ```
+
+
+# MikroTik Routing Table Retrieval
+
+The `mikrotik_routing_table.py` script is designed to connect to a MikroTik router and retrieve information about its routing table. It utilizes the `paramiko` library to establish an SSH connection to the MikroTik device and fetches the routing table data using the `/ip/route/print terse` command.
+
+## Usage
+
+1. Ensure you have the required Python libraries installed:
+
+   ```bash
+   pip install paramiko python-dotenv
+
